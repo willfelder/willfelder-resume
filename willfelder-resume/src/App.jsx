@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./style";
-import { Billing, Business, CardDeal, Clients, CTA, Footer, Home, Navbar, Stats, Testimonials} from "./components";
+import { Billing, Languages, CardDeal, Clients, CTA, Footer, Home, Navbar, Stats, Skills} from "./components";
 
 const App = () => {
 
@@ -25,13 +25,16 @@ const App = () => {
         
         <div className={`${styles.boxWidth}`}>
           <Stats />
-          <Business />
+          <Skills />
+          <Languages />
+          <Billing />
+          {/*
           <Billing />
           <CardDeal />
-          <Testimonials />
           <Clients />
           <CTA />
           <Footer />
+          */}
         </div>
       </div>
     </div>

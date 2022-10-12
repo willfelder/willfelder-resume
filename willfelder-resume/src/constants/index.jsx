@@ -19,54 +19,65 @@ export const navLinks = [
   },
 ];
 
-export const features = [
+export const languages = [
   {
-    id: "feature-1",
-    icon: star,
-    title: "Rewards",
+    id: "languages-1",
+    icon: "https://flagicons.lipis.dev/flags/4x3/br.svg",
+    title: "Portuguese (Brazilian)",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Native",
   },
   {
-    id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
+    id: "languages-2",
+    icon: "https://flagicons.lipis.dev/flags/4x3/us.svg",
+    title: "English",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "CEFR-level B2 - Upper-intermediate",
   },
   {
-    id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
+    id: "languages-3",
+    icon: "https://flagicons.lipis.dev/flags/4x3/de.svg",
+    title: "German",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "CEFR-level B1 - Intermediate",
   },
 ];
 
-export const feedback = [
+export const skills = [
   {
-    id: "feedback-1",
-    content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
+    id: "skill-1",
+    title: "JavaScript",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
   },
   {
-    id: "feedback-2",
-    content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
+    id: "skill-2",
+    title: "React",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
   },
   {
-    id: "feedback-3",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
+    id: "skill-3",
+    title: "Redux",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+  },
+  {
+    id: "skill-4",
+    title: "HTML5",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+  },
+  {
+    id: "skill-5",
+    title: "CSS3",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg",
+  },
+  {
+    id: "skill-6",
+    title: "Git",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+  },
+  {
+    id: "skill-7",
+    title: "Figma",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
   },
 ];
 
