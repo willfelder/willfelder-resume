@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../style";
 import { boyComputer } from "../assets";
 
-const Hero = () => {
+const Home = () => {
 
     return(
         <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
@@ -28,4 +28,4 @@ const Hero = () => {
     )
 };
 
-export default Hero;
+export default Home;
