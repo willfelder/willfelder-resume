@@ -26,15 +26,15 @@ const LanguageCard = (props) => {
 const Languages = () => {
 
     return(
-        <section id="features" className={` ${layout.section} pr-20 mr-20`}>
-
-            <div className={layout.sectionInfo}>
-                <h2 className={styles.heading2}>
+        <section id="features" className={` ${layout.section} flex justify-center relative`}>
+            <div className="absolute z-[0] w-[60%] h-[60%] -left-[60%] rounded-full pink__gradient bottom-40" />
+            <div className={`${layout.sectionInfo} max-w-xl`}>
+                <h2 className={`${styles.heading2} flex justify-center`}>
                     Languages
                 </h2>
             </div>
 
-            <div className={`${styles.sectionImg}`}>
+            <div className={`${styles.sectionImg} flex justify-center`}>
                 {languages.map((feature, index) => (
                     <LanguageCard key={feature.id} {...feature} index={index} />
                 ))}
