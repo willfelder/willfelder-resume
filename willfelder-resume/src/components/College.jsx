@@ -21,12 +21,6 @@ const College = () => {
                 <p className={`${styles.paragraph} max-w-[570px] mt-5`}>
                     I studied Analysis and Software Development. My relevant coursework was Web Design, UX-UI, Web Architecture, Object-Oriented Programming, and Software Engineering.
                 </p>
-                <ul className={styles.paragraph}>
-                    <br /> 
-                    <li>Free Code Camp - JavaScript Certificate - Algorithm and Data Structures.</li>
-                    <li>Free Code Camp - Responsive Web Design and Front-end Libraries.</li>
-                    <li>MIT University - Introduction to Computer Science and Programming in Python.</li>
-                </ul>
             </div>
         </section>
     )

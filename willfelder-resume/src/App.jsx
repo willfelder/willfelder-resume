@@ -29,11 +29,8 @@ const App = () => {
           <Languages />
           <College />
           <CardDeal />
-          {/*
-          <CardDeal />
           <CTA />
           <Footer />
-          */}
         </div>
       </div>
     </div>

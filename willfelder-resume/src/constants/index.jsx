@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { github, linkedin, dropbox, send, shield, star  } from "../assets";
 
 export const navLinks = [
   {
@@ -89,11 +89,6 @@ export const stats = [
   },
   {
     id: "stats-2",
-    title: "Satisfied clients",
-    value: "+50",
-  },
-  {
-    id: "stats-3",
     title: "Technologies",
     value: "+5",
   },
@@ -168,22 +163,12 @@ export const footerLinks = [
 export const socialMedia = [
   {
     id: "social-media-1",
-    icon: instagram,
+    icon: github,
     link: "https://www.instagram.com/",
   },
   {
     id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
-  },
-  {
-    id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
-  },
-  {
-    id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.facebook.com/",
   },
 ];
