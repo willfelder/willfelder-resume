@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
-import Billing from "./Billing";
+import College from "./College";
 import CardDeal from "./CardDeal";
 import Languages from "./Languages";
 import CTA from "./CTA";
@@ -10,7 +10,7 @@ import Home from "./Home";
 
 export {
   Navbar,
-  Billing,
+  College,
   CardDeal,
   Languages,
   CTA,
