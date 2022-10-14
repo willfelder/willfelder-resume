@@ -5,7 +5,7 @@ import styles, { layout } from "../style";
 const College = () => {
 
     return(
-        <section id="product" className={layout.sectionReverse}>
+        <section id="education" className={layout.sectionReverse}>
 
             <div className={layout.sectionImgReverse}>
                 <object data={boyEducation} className="w-[90%] h-[90%] reative z-[5]" />

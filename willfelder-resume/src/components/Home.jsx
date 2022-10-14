@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import styles from "../style";
 import { boyComputerAnimation } from "../assets";
+import Button from "./Button";
 
 const Home = () => {
 
@@ -15,8 +16,10 @@ const Home = () => {
                         <span className="text-gradient">William Lengenfelder</span>
                     </h1>
                 </div>
-
-                <p className={`${styles.paragraph} max-w-auto mt-5`}>I am a front-end developer passionate about technology with more than two years of experience creating websites and landing pages.</p>
+                <p className={`${styles.paragraph} max-w-auto mt-5`}>
+                    I am a front-end developer passionate about technology with more than two years of experience creating websites and landing pages.
+                </p>
+                <Button styles={`mt-10`} />
             </div>
 
             <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>

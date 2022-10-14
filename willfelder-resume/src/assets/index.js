@@ -1,10 +1,10 @@
 import college from "./college.svg";
-import card from "./card.png";
 import dropbox from "./dropbox.png";
 import logo from "./logo.png";
 import quotes from "./quotes.svg";
 import boyComputerAnimation from "./boy-computer-animation.svg";
 import boyEducation from "./boy-education.svg";
+import project from "./project.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -19,7 +19,7 @@ import whatsapp from "./whatsapp.png";
 
 export {
   college,
-  card,
+  project,
   dropbox,
   logo,
   quotes,

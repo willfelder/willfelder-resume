@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import { navLinks } from "../constants";
 import { close, logo, menu } from "../assets";
 
-const Navbar = () => {
+const Navbar = props => {
 
     const [toggle, setToggle] = useState(false);
 
     return(
-        <nav className="w-full flex py-6 justify-between items-center navbar">
+        <nav className={`w-full flex py-6 justify-between items-center navbar`}>
             <a href={"#home"}>
                 <img src={logo} alt="hoobank" className="w-[32px] h-[32px]" />
             </a>
