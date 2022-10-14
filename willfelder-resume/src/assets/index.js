@@ -3,7 +3,8 @@ import card from "./card.png";
 import dropbox from "./dropbox.png";
 import logo from "./logo.png";
 import quotes from "./quotes.svg";
-import boyComputer from "./boy-computer.svg";
+import boyComputerAnimation from "./boy-computer-animation.svg";
+import boyEducation from "./boy-education.svg";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -22,7 +23,8 @@ export {
   dropbox,
   logo,
   quotes,
-  boyComputer,
+  boyComputerAnimation,
+  boyEducation,
   send,
   shield,
   star,

@@ -1,5 +1,5 @@
 import React from "react";
-import { college } from "../assets";
+import { boyEducation } from "../assets";
 import styles, { layout } from "../style";
 
 const College = () => {
@@ -8,9 +8,9 @@ const College = () => {
         <section id="product" className={layout.sectionReverse}>
 
             <div className={layout.sectionImgReverse}>
-                <img src={college} alt="Boy studing on some stack of books" className="w-[90%] h-[90%] reative z-[5]" />
+                <object data={boyEducation} className="w-[90%] h-[90%] reative z-[5]" />
                 <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
-                <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
+                <div className="absolute z-[0] w-[50%] h-[60%] -left-1/2 bottom-0 rounded-full pink__gradient" />
             </div>
 
             <div className={layout.sectionInfo}>
