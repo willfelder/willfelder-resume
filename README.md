@@ -1,5 +1,5 @@
 ## William Lengenfelder Resume
-![learning-app](https://user-images.githubusercontent.com/73253144/194752782-46c46649-e5a6-488e-b293-346ff935c323.png)
+![willfelder](https://user-images.githubusercontent.com/73253144/196239737-41dd6281-a9b8-4b53-ad30-fc921140a90e.png)
 
 ## Features
 - Functional components.
