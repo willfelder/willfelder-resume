@@ -1,6 +1,6 @@
 import React from "react";
-import styles, { layout } from "../style";
-import { languages } from "../constants";
+import styles, { layout } from "../../style";
+import { languages } from "../../constants";
 
 const LanguageCard = (props) => {
 

@@ -1,7 +1,6 @@
 import React from "react";
-import styles from "../style";
-import Button from "./Button";
-import { whatsapp } from "../assets";
+import styles from "../../style";
+import Button from "../button/Button";
 
 const CTA = () => {
     return(
@@ -12,7 +11,7 @@ const CTA = () => {
             </p>
         
             <div className={`${styles.flexCenter}  sm:ml-10 ml-0 sm:mt-0 mt-10`}>
-                <Button />
+                <Button title={"Contact me"} />
             </div>
         </section>
     )

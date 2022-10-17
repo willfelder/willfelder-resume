@@ -1,4 +1,4 @@
-import { github, linkedin, dropbox, send, shield, star  } from "../assets";
+import { github, linkedin } from "../assets";
 
 export const navLinks = [
   {
@@ -103,24 +103,16 @@ export const footerLinks = [
     title: "Useful Links",
     links: [
       {
-        name: "Content",
+        name: "Home",
         link: "https://www.hoobank.com/content/",
       },
       {
-        name: "How it Works",
+        name: "Skills",
         link: "https://www.hoobank.com/how-it-works/",
       },
       {
-        name: "Create",
+        name: "Education",
         link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
       },
     ],
   },
@@ -128,37 +120,12 @@ export const footerLinks = [
     title: "Community",
     links: [
       {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        name: "Projects",
+        link: "https://www.hoobank.com/explore/",
       },
       {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
-    ],
-  },
-  {
-    title: "Partner",
-    links: [
-      {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        name: "Contact",
+        link: "https://www.hoobank.com/terms-and-services/",
       },
     ],
   },
@@ -168,11 +135,11 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: github,
-    link: "https://www.instagram.com/",
+    link: "https://www.github.com/willfelder",
   },
   {
     id: "social-media-2",
     icon: linkedin,
-    link: "https://www.facebook.com/",
+    link: "https://www.linkedin.com/in/wlengenfelder",
   },
 ];

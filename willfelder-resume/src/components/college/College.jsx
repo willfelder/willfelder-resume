@@ -1,6 +1,6 @@
 import React from "react";
-import { boyEducation } from "../assets";
-import styles, { layout } from "../style";
+import { boyEducation } from "../../assets";
+import styles, { layout } from "../../style";
 
 const College = () => {
 

@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "../style";
-import { socialMedia } from "../constants";
-import { stats } from "../constants";
+import styles from "../../style";
+import { socialMedia } from "../../constants";
+import { stats } from "../../constants";
 
 const Stats = () => {
 

@@ -1,12 +1,12 @@
-import Navbar from "./Navbar";
-import College from "./College";
-import Projects from "./Projects";
-import Languages from "./Languages";
-import Contact from "./Contact";
-import Stats from "./Stats";
-import Footer from "./Footer";
-import Skills from "./Skills";
-import Home from "./Home";
+import Navbar from "./navbar/Navbar";
+import College from "./college/College";
+import Projects from "./projects/Projects";
+import Languages from "./language/Languages";
+import Contact from "./contact/Contact";
+import Stats from "./stats/Stats";
+import Footer from "./footer/Footer";
+import Skills from "./skills/Skills";
+import Home from "./home/Home";
 
 export {
   Navbar,

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { navLinks } from "../constants";
-import { close, logo, menu } from "../assets";
+import { navLinks } from "../../constants";
+import { close, logo, menu } from "../../assets";
 
-const Navbar = props => {
+const Navbar = () => {
 
     const [toggle, setToggle] = useState(false);
 

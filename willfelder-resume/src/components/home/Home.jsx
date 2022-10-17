@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
-import styles from "../style";
-import { boyComputerAnimation } from "../assets";
-import Button from "./Button";
+import React from "react";
+import styles from "../../style";
+import { boyComputerAnimation } from "../../assets/index";
+import Button from "../button/Button";
 
 const Home = () => {
 
@@ -19,7 +19,7 @@ const Home = () => {
                 <p className={`${styles.paragraph} max-w-auto mt-5`}>
                     I am a front-end developer passionate about technology with more than two years of experience creating websites and landing pages.
                 </p>
-                <Button styles={`mt-10`} />
+                <Button styles={`mt-10`} title={"Download Resume"} />
             </div>
 
             <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>

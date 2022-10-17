@@ -1,6 +1,6 @@
 import React from "react";
-import { skills } from "../constants/index";
-import styles from "../style";
+import { skills } from "../../constants/index";
+import styles from "../../style";
 import SkillsCard from "./SkillsCard";
 
 const Skills = () => {
